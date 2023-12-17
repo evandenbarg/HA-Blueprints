@@ -22,13 +22,11 @@ blueprint:
         time:
     schedule:
       name: (Required) Schedule
-      description: Run the action on Monday.
-      default: false
+      description: Run the action on Monday
       selector:
         entity:
           filter:
-            device_class: numeric_state
-            domain: schedule
+            - integration: Schema
     custom_trigger_event:
       name: (Optional) Custom Trigger Event
       description: A custom event which can trigger the state check (eg. a powercut event reported by external integrations).
