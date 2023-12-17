@@ -1,4 +1,4 @@
-# Blueprint metadata
+a# Blueprint metadata
 blueprint:
   name: On-Off Day schedule
   description: On-Off schedule for each day.
@@ -22,7 +22,7 @@ blueprint:
         time:
     schedule:
       name: (Required) Schedule
-      description: Run the action on Monday
+      description: Run the action on schema
       selector:
         entity:
           filter:
