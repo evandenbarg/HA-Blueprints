@@ -21,7 +21,7 @@ blueprint:
       selector:
         time:
     schedule:
-      name: (Optional) Run on Monday
+      name: (Required) Schedule
       description: Run the action on Monday.
       default: false
       selector:
