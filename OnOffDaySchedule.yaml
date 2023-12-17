@@ -2,7 +2,7 @@
 blueprint:
   name: On-Off Day schedule
   description: On-Off schedule for each day
-  source_url: https://github.com/evandenbarg/HA-Blueprints/OnOffDaySchedule.yaml
+  source_url: https://github.com/evandenbarg/HA-Blueprints/blob/main/OnOffDaySchedule.yaml
   domain: automation
   input:
     automation_target:
