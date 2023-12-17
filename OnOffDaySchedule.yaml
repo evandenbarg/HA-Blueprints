@@ -20,12 +20,15 @@ blueprint:
       description: Time when the target should be placed in the off state.
       selector:
         time:
-    day_monday:
+    schedule:
       name: (Optional) Run on Monday
       description: Run the action on Monday.
       default: false
       selector:
-        boolean:
+        entity:
+          filter:
+            device_class: schedule
+            domain: binary_sensor
     custom_trigger_event:
       name: (Optional) Custom Trigger Event
       description: A custom event which can trigger the state check (eg. a powercut event reported by external integrations).
