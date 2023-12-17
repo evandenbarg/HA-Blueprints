@@ -24,9 +24,7 @@ blueprint:
       name: (Required) Schedule
       description: Run the action on schema
       selector:
-        entity:
-          filter:
-            integration: Schema
+        entity:  
     custom_trigger_event:
       name: (Optional) Custom Trigger Event
       description: A custom event which can trigger the state check (eg. a powercut event reported by external integrations).
