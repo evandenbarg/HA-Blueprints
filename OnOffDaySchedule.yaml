@@ -27,8 +27,8 @@ blueprint:
       selector:
         entity:
           filter:
-            device_class: schedule
-            domain: binary_sensor
+            device_class: numeric_state
+            domain: schedule
     custom_trigger_event:
       name: (Optional) Custom Trigger Event
       description: A custom event which can trigger the state check (eg. a powercut event reported by external integrations).
